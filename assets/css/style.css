@@ -848,40 +848,14 @@ footer .footer_main .tag .social_link a::after {
   position: absolute;
   z-index: -10;
   transition: 0.5s;
+  text-align: center;
 }
 
 footer .footer_main .tag .social_link a:hover::after {
   left: 0;
 }
 
-footer .footer_main .tag .search_bar {
-  width: 230px;
-  height: 30px;
-  background: rgb(202, 202, 202);
-  border-radius: 25px;
-}
 
-footer .footer_main .tag .search_bar input {
-  width: 200px;
-  padding: 2px 0;
-  position: relative;
-  top: 17%;
-  left: 6%;
-  border: none;
-  background: none;
-  outline: none;
-  font-size: 13px;
-}
-
-footer .footer_main .tag .search_bar button {
-  padding: 7px 15px;
-  background: linear-gradient(to right, #c72092, #6c14d0);
-  border: none;
-  margin-top: 15px;
-  border-radius: 25px;
-  color: white;
-  cursor: pointer;
-}
 
 /* Responsive Design */
 @media (max-width: 1200px) {
